@@ -1,0 +1,33 @@
+@import 'variables';
+
+.navbar{
+    background: $black;
+    padding: .2rem 0;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 9999;
+    // border-bottom: .01rem solid $white;
+   .container-fluid{
+        .navbar-brand{
+            margin: 0;
+            img{
+                width: 90px;
+                height: auto;
+            }
+        }
+        .collapse, .navbar-collapse{
+            width: 100%;
+            ul{
+                width: calc(100% - 8rem);
+                display: flex;
+                justify-content: center;
+                li{
+                    a{
+                        color: $white;
+                    }
+                }
+            }
+            
+        }
+   } 
+}

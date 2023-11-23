@@ -1,0 +1,23 @@
+
+$white : #fff;
+$orange : #fbb040;
+$black : #000;
+$gray : #5e5e5e;
+$offwhite :#999999;
+$shadow :  0 0 2px $gray;
+$orangeGradient : linear-gradient(90deg, rgba(251,176,64,1) 0%, rgba(247,148,29,1) 50%, rgba(249,161,46,1) 100%);
+
+::-webkit-scrollbar {
+    display: none;
+  }
+  .main_btn{
+    width:8rem;
+    display: grid;
+    place-items: center;
+    .btn{
+        padding: 4px 8px;
+        color: $orange;
+        border: 2px solid $orange;
+        border-radius: 2px;
+    }
+}

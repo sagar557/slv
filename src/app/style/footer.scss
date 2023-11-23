@@ -1,0 +1,86 @@
+@import 'variables';
+
+footer{
+    width: 100%;
+    padding: 0 3%;
+    .Name{
+        border-bottom: 1px solid $white;
+        h2{
+            color: $white;
+            span{
+                color: $orange;
+            }
+        }
+    }
+    .MainLinks{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .links{
+            h6{
+                width: fit-content;
+                color: $white;
+                border-bottom: 2px solid $white;
+                font-size: 1.3rem;
+                margin: 1rem 0 .3rem 0;
+            }
+            ul{
+                padding: 0;
+                li{
+                    list-style: none;
+                    a{
+                        padding: 0;
+                        color: $white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .LogoAndAddress{
+            margin: 1rem 0 .3rem 0;
+            img{
+                width: 250px;
+                height: auto;
+            }
+            .address{
+                color: $white;
+                p{
+                    font-size: 1.2rem;
+
+                }
+            }
+        }
+    }
+    .SocialLink{
+        display: flex;
+        border-bottom: 2px solid $white;
+        ul{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin: 1rem 0;
+            li{
+                list-style: none;
+                a{
+                    margin: 0 1rem;
+                    i{
+                        color: $white;
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+    
+    .CopyRight{
+        width: 100%;
+        padding: 1rem 0;
+        display: flex;
+        justify-content: space-between;
+        p{
+            color: $white;
+            font-size: 1rem;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+@import 'variables';
+
+.faq{
+    width: 100%;
+    min-height: calc(100vh - 4rem);
+    padding: 2rem 3%;
+    display: grid;
+    place-items: center;
+    .accordion{
+        width: 100%;
+        background: none;
+        --bs-accordion-border-color: none;
+        .accordion-item{
+            margin: 1rem 0;
+            background: none;
+            border: 1px solid $orange;
+            h2{
+                border: none;
+                background: none;
+                border: 1px solid $orange;
+                button{
+                    color: $orange;
+                    background: none;
+                }
+            }
+            .accordion-collapse{
+                color: $white;
+            }
+        }
+    }
+
+}
