@@ -10,7 +10,7 @@ const page = () => {
         <div className="Group_GetTouch_contact">
           <div className="GetInTouch">
             <h2>GET I<span>N TOUCH</span></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem praesentium, delectus, suscipit aut facere voluptatibus eum quos explicabo labore enim neque mollitia dicta inventore blanditiis provident! Enim reiciendis ducimus impedit?</p>
+            <p>Skylink Ventures is committed to helping businesses achieve their full potential. We invite you to get in touch with us today to discuss your unique needs and how we can help you transform your business.</p>
             <ul>
               <li>
                 <a href=""><i className="bi bi-envelope-at-fill"></i>skylinkventures.slv@gmail.com</a>

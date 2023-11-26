@@ -1,0 +1,114 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.main_btn {
+  width: 8rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+.main_btn .btn {
+  padding: 4px 8px;
+  color: #fbb040;
+  border: 2px solid #fbb040;
+  border-radius: 2px;
+}
+
+footer {
+  width: 100%;
+  padding: 0 3%;
+}
+footer .Name {
+  border-bottom: 2px solid #fbb040;
+}
+footer .Name h2 {
+  color: #fff;
+}
+footer .Name h2 span {
+  color: #fbb040;
+}
+footer .MainLinks {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .MainLinks .links h6 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #fff;
+  border-bottom: 2px solid #fbb040;
+  font-size: 1.1rem;
+  color: #fbb040;
+  margin: 1rem 0 0.3rem 0;
+}
+footer .MainLinks .links ul {
+  padding: 0;
+}
+footer .MainLinks .links ul li {
+  list-style: none;
+}
+footer .MainLinks .links ul li a {
+  padding: 0;
+  color: #fff;
+  text-decoration: none;
+}
+footer .MainLinks .LogoAndAddress {
+  margin: 1rem 0 0.3rem 0;
+}
+footer .MainLinks .LogoAndAddress img {
+  width: 250px;
+  height: auto;
+}
+footer .MainLinks .LogoAndAddress .address {
+  color: #fff;
+}
+footer .MainLinks .LogoAndAddress .address p {
+  font-size: 1.2rem;
+}
+footer .SocialLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 2px solid #fbb040;
+}
+footer .SocialLink ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem 0;
+}
+footer .SocialLink ul li {
+  list-style: none;
+}
+footer .SocialLink ul li a {
+  margin: 0 1rem;
+}
+footer .SocialLink ul li a i {
+  color: #fbb040;
+  font-size: 1.5rem;
+}
+footer .CopyRight {
+  width: 100%;
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .CopyRight p {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 0px;
+}

@@ -16,9 +16,9 @@ const Footer = () => {
                     <div className="links">
                         <h6>Home</h6>
                         <ul>
-                            <li><Link href="/">Target Sectors</Link></li>
-                            <li><Link href="/">Careers</Link></li>
-                            <li><Link href="/">Our Affiliates</Link></li>
+                            <li><Link href="/#TargetSector">Target Sectors</Link></li>
+                            <li><Link href="/#Careers">Careers</Link></li>
+                            <li><Link href="/#Affiliates">Our Affiliates</Link></li>
                         </ul>
                     </div>
                     <div className="links">
@@ -35,11 +35,11 @@ const Footer = () => {
                 </div>
                     <div className="SocialLink">
                         <ul>
-                            <li><a href=""><i className="bi bi-linkedin"></i></a></li>
-                            <li><a href=""><i className="bi bi-facebook"></i></a></li>
-                            <li><a href=""><i className="bi bi-instagram"></i></a></li>
-                            <li><a href=""><i className="bi bi-threads"></i></a></li>
-                            <li><a href=""><i className="bi bi-twitter-x"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/skylink-ventures/" target='_blank'><i className="bi bi-linkedin"></i></a></li>
+                            <li><a href="" target='_blank'><i className="bi bi-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/skylink_ventures/" target='_blank'><i className="bi bi-instagram"></i></a></li>
+                            <li><a href="https://www.threads.net/@skylink_ventures" target='_blank'><i className="bi bi-threads"></i></a></li>
+                            <li><a href="https://twitter.com/SkylinkVentures" target='_blank'><i className="bi bi-twitter-x"></i></a></li>
                         </ul>
                     </div>
                 <div className="CopyRight">

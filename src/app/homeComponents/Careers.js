@@ -1,9 +1,8 @@
-import React from 'react'
 
 const Careers = () => {
   return (
     <>
-      <div className="Careers">
+      <div className="Careers" id="Careers" >
         <h2>Careers</h2>
         <div className="CareersContainers">
             <div id="item-0" className='item' >

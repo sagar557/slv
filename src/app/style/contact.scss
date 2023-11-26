@@ -34,7 +34,7 @@
                         display: flex;
                         color: $white;
                         i{
-                            
+                            color: $orange;
                             margin:0 1rem 0 0;
                         }
                     }
@@ -71,8 +71,9 @@
                     background: none;
                     border: 2px solid $orange;
                     border-radius:2px;
+                    outline: none;
                     &::placeholder{
-                        color: $offwhite;
+                        color: $white;
                     }
                 }
                 textarea{
@@ -86,8 +87,9 @@
                     background: none;
                     border: 2px solid $orange;
                     border-radius:2px;
+                    outline: none;
                     &::placeholder{
-                        color: $offwhite;
+                        color: $white;
                     }
                 }
                 .main_btn{

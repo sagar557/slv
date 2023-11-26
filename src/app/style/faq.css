@@ -1,0 +1,47 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.main_btn {
+  width: 8rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+.main_btn .btn {
+  padding: 4px 8px;
+  color: #fbb040;
+  border: 2px solid #fbb040;
+  border-radius: 2px;
+}
+
+.faq {
+  width: 100%;
+  min-height: calc(100vh - 4rem);
+  padding: 2rem 3%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+.faq .accordion {
+  width: 100%;
+  background: none;
+  --bs-accordion-border-color: none;
+}
+.faq .accordion .accordion-item {
+  margin: 1rem 0;
+  background: none;
+  border: 1px solid #fbb040;
+}
+.faq .accordion .accordion-item h2 {
+  border: none;
+  background: none;
+  border: 1px solid #fbb040;
+}
+.faq .accordion .accordion-item h2 button {
+  color: #fbb040;
+  background: none;
+}
+.faq .accordion .accordion-item .accordion-collapse {
+  color: #fff;
+}

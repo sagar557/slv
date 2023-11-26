@@ -1,5 +1,256 @@
-/* .SLVHead{
-    background-image: url('../../../public/Pic.png');
-    background-size: cover;
-    width: 100%;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500;600;700;800&display=swap");
+::-webkit-scrollbar {
+  display: none;
+}
+
+.main_btn {
+  width: 8rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+.main_btn .btn {
+  padding: 4px 8px;
+  color: #fbb040;
+  border: 2px solid #fbb040;
+  border-radius: 2px;
+}
+
+.SLVHead {
+  width: 100%;
+  padding: 0 3%;
+  min-height: calc(100vh - 6rem);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.SLVHead .TagLine {
+  width: 100%;
+  text-align: center;
+}
+.SLVHead .TagLine h1 {
+  width: 100%;
+  font-family: "Playpen";
+  font-size: clamp(6rem, 4vw, 2rem);
+  text-align: center;
+  color: #fff;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 5;
+}
+.SLVHead .TagLine h1 span {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  font-size: clamp(12rem, 8vw, 4rem);
+  color: transparent;
+  -webkit-text-stroke: 2px orange;
+  z-index: -1;
+}
+.SLVHead p {
+  max-width: 700px;
+  color: #fff;
+  text-align: center;
+}
+.SLVHead .main_btn {
+  margin-top: 1rem;
+}
+
+.WhoWeAre,
+.TargetSectors,
+.Careers,
+.OurAffiliates {
+  width: 100%;
+  padding: 0 3%;
+}
+.WhoWeAre h2,
+.TargetSectors h2,
+.Careers h2,
+.OurAffiliates h2 {
+  color: #fff;
+  text-align: center;
+}
+.WhoWeAre h2 span,
+.TargetSectors h2 span,
+.Careers h2 span,
+.OurAffiliates h2 span {
+  color: #fbb040;
+}
+
+.WhoWeAre {
+  margin: 3rem 0 5rem 0;
+}
+.WhoWeAre .WeAre {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.WhoWeAre .WeAre .aboutWhoWeAre {
+  width: 60%;
+  margin-top: 2rem;
+}
+.WhoWeAre .WeAre .aboutWhoWeAre p {
+  color: #fff;
+  text-align: justify;
+}
+.WhoWeAre .WeAre .aboutWhoWeAre hr {
+  margin: 3rem 0;
+  color: #fbb040;
+}
+.WhoWeAre .WeAre .aboutWhoWeAre .numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.WhoWeAre .WeAre .aboutWhoWeAre .numbers h2 {
+  margin: 0 200px 0 0;
+}
+.WhoWeAre .WeAre .AboutFounderImages {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.WhoWeAre .WeAre .AboutFounderImages img {
+  width: 250px;
+  height: auto;
+}
+.WhoWeAre .main_btn {
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+}
+
+.TargetSectors .TargetSectorsContainer {
+  width: 100%;
+  margin: 3rem 0;
+}
+.TargetSectors .TargetSectorsContainer .row1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+.TargetSectors .TargetSectorsContainer .row1 .box {
+  width: 50%;
+  border: 2px dotted gray;
+  min-height: 15rem;
+}
+.TargetSectors .TargetSectorsContainer .row2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+.TargetSectors .TargetSectorsContainer .row2 .box {
+  width: 33.3333333333%;
+  min-height: 15rem;
+  border: 2px dotted gray;
+}
+.TargetSectors .TargetSectorsContainer img {
+  width: 100%;
+  height: auto;
+}
+
+.Careers {
+  width: 100%;
+  padding: 0 3%;
+}
+.Careers .CareersContainers {
+  width: 100%;
+  margin: 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 20px;
+}
+.Careers .CareersContainers .item {
+  width: 320px;
+  -webkit-box-shadow: 0 0 2px #5e5e5e;
+          box-shadow: 0 0 2px #5e5e5e;
+  border: 2px solid #fbb040;
+  color: #fbb040;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+.Careers .CareersContainers .item h5 {
+  margin: 20px 0;
+}
+
+.OurAffiliates {
+  width: 100%;
+  padding: 0 3%;
+}
+.OurAffiliates .AffiliatesHeading {
+  margin: 3rem 0;
+  width: 100%;
+}
+.OurAffiliates .AffiliatesHeading .heading {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+.OurAffiliates .AffiliatesHeading .heading img {
+  width: 200px;
+  height: auto;
+}
+.OurAffiliates .AffiliatesHeading .heading .ContentContainer {
+  border-left: 3px solid #fbb040;
+  height: 100%;
+  margin: 0 3%;
+  padding: 0 1%;
+}
+.OurAffiliates .AffiliatesHeading .heading .ContentContainer h4 {
+  color: #fbb040;
+}
+.OurAffiliates .AffiliatesHeading .heading .ContentContainer p {
+  color: #fff;
+}
+.OurAffiliates .AffiliatesHeading .AboutAffiliates {
+  color: #fff;
+}
+.OurAffiliates .AffiliatesHeading .Screens .link {
+  width: 100%;
+  min-height: 300px;
+  background: #999999;
+  margin: 30px 0px;
+}
+.OurAffiliates hr {
+  color: #fbb040;
+}

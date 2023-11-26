@@ -1,3 +1,5 @@
+import '@/app/style/index.scss'
+
 import Careers from './homeComponents/Careers'
 import Head from './homeComponents/Head'
 import OurAffiliates from './homeComponents/OurAffiliates'

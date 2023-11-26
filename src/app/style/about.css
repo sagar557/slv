@@ -1,0 +1,102 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.main_btn {
+  width: 8rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+.main_btn .btn {
+  padding: 4px 8px;
+  color: #fbb040;
+  border: 2px solid #fbb040;
+  border-radius: 2px;
+}
+
+.WeArePage {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0 3%;
+  height: auto;
+}
+.WeArePage .contentImage {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.WeArePage .contentImage .content {
+  width: 60%;
+}
+.WeArePage .contentImage .content h2 {
+  color: #fbb040;
+}
+.WeArePage .contentImage .content h2 span {
+  color: #fff;
+}
+.WeArePage .contentImage .content p {
+  color: #fff;
+  text-align: justify;
+}
+.WeArePage .contentImage .Image {
+  width: 40%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+.WeArePage .contentImage .Image img {
+  width: 60%;
+  height: auto;
+}
+
+.CoFounder {
+  width: 100%;
+  margin: 3rem 0 5rem 0;
+  min-height: 100vh;
+}
+.CoFounder h2 {
+  text-align: center;
+  color: #fff;
+}
+.CoFounder h2 span {
+  color: #fbb040;
+}
+.CoFounder .ImageAndContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3rem;
+  padding: 0 3%;
+  gap: 50px;
+}
+.CoFounder .ImageAndContent .Image {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.CoFounder .ImageAndContent .Image .box {
+  background: red;
+  width: 100%;
+  height: 280px;
+  border-radius: 10px;
+}
+.CoFounder .ImageAndContent .content {
+  width: calc(100% - 300px);
+}
+.CoFounder .ImageAndContent .content h3 {
+  color: #fbb040;
+}
+.CoFounder .ImageAndContent .content h6 {
+  color: #999999;
+}
+.CoFounder .ImageAndContent .content p {
+  color: #fff;
+  text-align: justify;
+}
+.CoFounder hr {
+  color: #fbb040;
+  margin: 3rem 3% 0 2rem;
+}

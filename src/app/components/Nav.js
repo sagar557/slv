@@ -9,7 +9,7 @@ const Nav = () => {
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
                 <Link className="navbar-brand" href="/">
-                    <Image src={Logo} />
+                    <Image src={Logo} alt='SLV Firm main Logo'  />
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -23,7 +23,7 @@ const Nav = () => {
                     <Link className="nav-link" href="/about">About US</Link>
                     </li>
                     <li className="nav-item">
-                    <Link className="nav-link" href="/faq">FAQ'S</Link>
+                    <Link className="nav-link" href="/faq">FAQ&apos;S</Link>
                     </li>
                     {/* <li className="nav-item">
                     <Link className="nav-link" href="/news-update">News & Update</Link>

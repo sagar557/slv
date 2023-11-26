@@ -11,23 +11,34 @@
     justify-content: center;
 
     .TagLine {
+        width: 100%;
+        text-align: center;
         h1 {
-            color: $orange;
+            width: 100%;
             font-family: 'Playpen';
-            font-size: clamp(6rem, 4vw, 2rem);
+            font-size: clamp(4rem, 9vw, 12rem);
             text-align: center;
+            color:$white;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            z-index: 5;
 
-            span{
-                color:$white;
-                
-                
+            span{       
+                width: 100%;
+                position: absolute;
+                bottom: 50px;
+                font-size: clamp(5rem, 12vw, 15rem);
+                color: transparent;
+                -webkit-text-stroke: 2px orange;
+                z-index: -1;
             }
         }
     }
     p{
         max-width: 700px;
         color: $white;
-        text-align: center;
+        text-align: justify;
     }
     .main_btn{
         margin-top: 1rem;
@@ -51,43 +62,21 @@
 }
 
 .WhoWeAre {
-    margin: 3rem 0 5rem 0;
+    // margin: 3rem 0 5rem 0;
 
     .WeAre {
         width: 100%;
-        // min-height: calc(100vh - 5rem);
         height: auto;
         display: flex;
-
-        // align-items: center;
         .aboutWhoWeAre {
             width: 60%;
-            // padding: 2rem 0;
-            margin-top: 2rem;
-
-            // h1 {
-            //     // text-align: center;
-            //     color: $white;
-
-            //     span {
-            //         color: $orange;
-            //     }
-            // }
-
+            margin-top: 3rem;
             p {
                 color: $white;
                 text-align: justify;
             }
-
-            hr {
-                margin: 3rem 0;
-                color: $orange;
-            }
-           
-
             .numbers {
                 display: flex;
-
                 h2 {
                     margin: 0 200px 0 0;
                 }
@@ -108,11 +97,12 @@
     }
     .main_btn{
         width: fit-content !important;
+        margin-top: 2rem;
     }
 }
 
 .TargetSectors {
-
+    padding: 4rem 0 0 0;
 
     .TargetSectorsContainer {
         width: 100%;
@@ -160,16 +150,17 @@
     .CareersContainers {
         width: 100%;
         margin: 3rem 0;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        grid-template-rows: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
         gap: 20px;
 
         // place-items: center;
         .item {
-            background: $white;
+            width: 320px;
             box-shadow: $shadow;
-            border-left: 4px solid $orange;
+            border: 2px solid $orange;
+            color: $orange;
             display: grid;
             place-items: center;
 
@@ -194,17 +185,19 @@
             height: 100%;
             display: flex;
             align-items: center;
+            gap: 10px;
 
             img {
-                width: 200px;
+                width: 140px;
                 height: auto;
             }
 
             .ContentContainer {
+                // width: calc(100% - 100px);
                 border-left: 3px solid $orange;
                 height: 100%;
                 margin: 0 3%;
-                padding: 0 1%;
+                padding: 0 2rem;
 
                 h4 {
                     color: $orange;
@@ -212,21 +205,28 @@
 
                 p {
                     color: $white;
+                    text-align: justify;
                 }
             }
         }
 
+        .AboutAffiliates{
+            margin-top: 2rem;
+            color: $white;
+            text-align: justify;
+        }
         .AboutAffiliates {
-            margin-top: 5rem;
             color: $white;
         }
 
         .Screens {
             .link {
                 width: 100%;
-                min-height: 300px;
-                background: $offwhite;
-
+                margin: 30px 0px;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
             }
         }
     }
@@ -235,3 +235,77 @@
         color: $orange;
     }
 }
+@media only screen and (max-width: 1000px) {
+    .SLVHead {
+        .TagLine {
+            h1 {
+                span{       
+                    bottom: 40px;
+                }
+            }
+        }
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .SLVHead {
+        .TagLine {
+            h1 {
+                span{       
+                    bottom: 30px;
+                }
+            }
+        }
+    }
+    .WhoWeAre {
+        .WeAre {
+            .aboutWhoWeAre {
+                margin-top: 2rem;
+            }
+        }
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .WhoWeAre {
+        margin: 3rem 0 0 0;
+    
+        .WeAre {
+            width: 100%;
+            flex-direction: column;
+            .aboutWhoWeAre {
+                width: 100%;
+                margin-top: 1rem;
+            }
+            .AboutFounderImages {
+                width: 100%;
+                margin-top: 2rem;
+            }
+        }
+        .main_btn{
+            margin-top: 2rem;
+            width: 100% !important;
+            display: flex;  
+            justify-content: center;
+        }
+    }
+}
+  @media only screen and (max-width: 500px) {
+    .SLVHead {
+        .main_btn{
+            margin-top: 0;
+        }
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .SLVHead {
+        .TagLine {
+            h1 {
+                font-size: clamp(3rem, 9vw, 12rem);
+                span{       
+                    bottom: 20px;
+                    font-size: clamp(4rem, 12vw, 15rem);
+                }
+            }
+        }
+    }
+  }

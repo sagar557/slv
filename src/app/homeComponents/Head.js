@@ -1,18 +1,15 @@
-import React from 'react'
-import Image from 'next/image'
-import '@/app/style/index.scss'
-import '@/app/style/index.css'
-import Hero from '../../../public/Pic.png'
+
 
 const Head = () => {
   return (
     <>
       <div className="SLVHead">
         <div className="TagLine">
-        <Image src={Hero} />
-          {/* <h1>Our Vision, <br /><span>Your Future</span> </h1> */}
+          <h1><span>Our Vision</span> <br />Your Future</h1>
         </div>
-          <p>Lorem ipsum dolor sit amet, elit. Iste, a mollitia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, a mollitia. Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, a mollitia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, a mollitia. Lorem ipsum dolor sit amet</p>
+          <p>At Skylink Ventures, we are a team of passionate and experienced professionals dedicated to empowering businesses to achieve their full potential. We believe in the power of innovation, collaboration, and personalized solutions to drive strategic growth and transformation. Our diverse expertise spans across various industries, enabling us to provide tailored solutions that address the specific challenges and opportunities faced by our clients.</p>
+          <p>Together, we can shape the future of business success.</p>
+          
           <div className="main_btn">
             <a href="/contact-us" className="btn">Get Started</a>
           </div>
